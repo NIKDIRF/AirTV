@@ -1,0 +1,23 @@
+﻿# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android/NDK
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Local config
+local.properties
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+
+# Keystores (не хранить в гите)
+*.jks
+*.keystore
+
+# Logs
+*.log
